@@ -1,0 +1,82 @@
+body {
+    background-color: #060809;
+    margin: 0;
+    overflow-x: hidden;
+}
+h1 {
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 550px;
+}
+.main-page {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin-right: 50px;
+}
+.nav-btn {
+    font-family: Segoe UI, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+.nav-btn__blue{
+    color: #55ACEE;
+}
+
+.title--container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.title {
+    font-family: Segoe UI, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+
+    display: inline-block;
+    color: white;
+}
+.title-blue {
+    display: inline-block;
+    color: royalblue;
+}
+.description {
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+    color: antiquewhite;
+    max-width: 620px;
+}
+
+.main-albums {
+    position: relative;
+    width: 100vw;
+    min-height: 763px;
+    overflow: hidden;
+}
+.phone-img {
+    position: absolute;
+    left: calc(50% - 220px)
+}
+.albums--frame {
+    top: calc(50% - 200px);
+    left: -20px;
+    position: absolute;
+}
